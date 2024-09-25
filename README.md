@@ -2,7 +2,7 @@
 
 ## Atos    
 
-[TechSpotlight présente Atos]([https://LAFAYMehdi.github.io/SAE_S1.05-06](https://lafaymehdi.github.io/SAE-S1.05-06/))
+[TechSpotlight présente Atos](https://lafaymehdi.github.io/SAE-S1.05-06/)
 
 ## Membres du groupe :
 
