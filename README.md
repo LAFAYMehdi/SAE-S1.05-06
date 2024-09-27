@@ -6,6 +6,8 @@
 
 ## Membres du groupe :
 
+Groupe 12
+
 Etudiant 1 (référent du groupe) :  [LAFAY Mehdi](mailto:mehdi.lafay@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
 Etudiant 2 : [MAAROUFI Ayman](mailto:ayman.maaroufi@edu.univ-fcomte.fr?subject=SAE_1_05_06)   
 Etudiant 3 : [IMLOUL Mohamed-Younes](mailto:mohamed-younes.imloul@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
