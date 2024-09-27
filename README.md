@@ -14,4 +14,4 @@ Etudiant 4 : [HUNDERT Johan](mailto:johan.hundert@edu.univ-fcomte.fr?subject=SAE
 
 # Présentation du projet
 
-Ce dépôt correspond à un site web créé en HTML/CSS/JS dans le cadre de la SAÉ 05-06 à l'IUT de Belfort-Montbéliard. Ce site présente des informations concernant l'entreprise Atos et sert de vitrine pour présenter l'entreprise, ses activité, son organisation et son historique. Vous trouverez dans ce dépôt et sur le site un rapport économique analysant l'aspect économique de l'entreprise Atos 
+Ce dépôt contient un site web développé en HTML, CSS et JavaScript dans le cadre de la SAÉ 05-06 à l'IUT de Belfort-Montbéliard. Le site fournit des informations sur l'entreprise Atos, mettant en avant ses activités, son organisation et son historique. Vous y trouverez également un rapport économique qui analyse l'aspect économique de l'entreprise Atos.
