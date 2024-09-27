@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <link href="Styles/styles.css" rel="stylesheet" type="text/css">
-    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    
+    <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="Styles/Accueil.css" rel="stylesheet" type="text/css">
+    
     <link rel="apple-touch-icon" sizes="57x57" href="Icones/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="Icones/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="Icones/apple-icon-72x72.png">
@@ -12,34 +17,68 @@
     <link rel="apple-touch-icon" sizes="144x144" href="Icones/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="Icones/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="Icones/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="Icones/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="Icones/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="Icones/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="Icones/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="Icones/favicon-16x16.png">
     <link rel="manifest" href="Icones/manifest.json">
+    
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="Icones/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil</title>
 </head>
-<header>
-    <img src="Icones/apple-icon-60x60.png" alt="">
-    <nav class="navigation bg-success bg-gradient">
-        <a href="list_article.html" class="btn btn-light text-success"> Accueil </a>
-        <a href="list_type_article.html" class="btn btn-light text-success"> Services </a>
-        <a href="list_article.html" class="btn btn-light text-success"> Economie </a>
-        <a href="list_article.html" class="btn btn-light text-success"> Gestion Environmentale </a>
-        <a href="list_article.html" class="btn btn-light text-success"> A propos </a>
-
-    </nav>
-</header>
-<hr>
 <body>
-    <script src="Scripts/script_paccueil.js" ></script>
-</body>
-<footer class="navigation bg-success bg-gradient">
 
+<header>
+    <div class="logo">
+        <img src="Icones/apple-icon-60x60.png" alt="Logo Atos">
+    </div>
+    <div class="slogan">
+        <h1>TechSpotlight</h1>
+        <p></p>
+    </div>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="Pages/PageService.html">Services</a></li>
+        <li><a href="Pages/PageEco.html">Économie</a></li>
+        <li><a href="Pages/PageEnv.html">Gestion Environnementale</a></li>
+        <li><a href="Pages/PageAProp.html">À propos</a></li>
+    </ul>
+</nav>
+
+<section class="banner">
+    <div class="banner-content">
+        <h2>TechSpotlight présente Atos</h2>
+        <p>Atos est une entreprise reconnue dans le domaine des technologies de l'information, dédiée à offrir des solutions innovantes et durables. Son objectif est d'accompagner les clients dans leur transformation numérique en fournissant des services adaptés à leurs besoins.</p>
+        <a href="#services" class="service">Découvrez les services d'Atos</a>
+    </div>
+</section>
+
+<section class="presentation">
+    <h3>Présentation</h3>
+    <p>Atos s'engage pour une gestion efficace et un environnement sain.</p>
+    <div class="imagegal">
+        <img src="image1.jpg" alt="Service 1">
+        <img src="image2.jpg" alt="Service 2">
+        <img src="image3.jpg" alt="Service 3">
+    </div>
+</section>
+
+<section class="googlemap">
+    <h3>Trouver Atos</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+<footer>
+    <p>&copy; 2024 Atos. Tous droits réservés.</p>
+    <div class="social-links">
+        <p>Cette page est attribuée à Ayman MAAROUFI</p>
+        <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">LinkedIn</a>
+    </div>
 </footer>
+
+</body>
 </html>
