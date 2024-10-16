@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +8,7 @@
     font-family: "Roboto", sans-serif;
     transition: all 0.3s ease;
 }
+
 
 body {
     background-color: #f4f4f4;
@@ -110,6 +112,23 @@ nav ul li a:hover {
     transform: translateY(-3px);
 }
 
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section h2, section h3 {
+    color: green;
+    margin-bottom: 20px;
+}
+
+section p {
+    max-width: 800px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+
+}
+
 .button-trans {
     background-color: #fff;
     color: #4CAF50;
@@ -124,120 +143,34 @@ nav ul li a:hover {
     color: white;
 }
 
-
-.banner {
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    text-align: center;
-    position: relative;
-    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-.banner:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;      display: block;
-    width: 100%;
-    height: auto; 
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-.banner-content {
-    position: relative;
-    z-index: 1;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
-}
-
-.banner-content h2 {
-    font-size: 52px;
-    margin-bottom: 20px;
-}
-
-.banner-content p {
-    font-size: 22px;
-    margin-bottom: 30px;
-}
-
-.service {
-    display: inline-block;
-    background-color: #fff;
-    color: #4CAF50;
-    padding: 15px 30px;
-    border-radius: 10px;
-    text-decoration: none;
-    font-size: 18px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s, transform 0.3s;
-}
-
-.service:hover {
-    background-color: #4CAF50;
-    color: white;
-    transform: scale(1.1);
-}
-
-.presentation {
-    text-align: center;
-    padding: 60px 20px;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-top: 40px;
-}
-
-.presentation h3 {
-    font-size: 34px;
-    margin-bottom: 20px;
-    color: #4CAF50;
-}
-
-.presentation p {
-    font-size: 18px;
-    margin-bottom: 40px;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
 .imagegal {
     display: flex;
     justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+    gap: 15px;
     margin-top: 20px;
 }
 
 .imagegal img {
-    width: 300px;
-    height: 200px;
-    object-fit: cover;
+    width: 200px;
+    height: auto;
     border-radius: 10px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
 }
 
 .imagegal img:hover {
     transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.googlemap {
-    text-align: center;
-    padding: 60px 20px;
-    background-color: #f4f4f4;
-    margin-top: 40px;
+/* Mission Section */
+.mission {
+    background-color: #e8f4ff;
+    padding: 40px 20px;
 }
 
-.googlemap h3 {
-    font-size: 34px;
-    margin-bottom: 20px;
-    color: #333;
+.mission p {
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.6;
 }
 
 footer {
@@ -261,5 +194,3 @@ footer .social-links a:hover {
     text-decoration: underline;
     color: #fff;
 }
-
-
