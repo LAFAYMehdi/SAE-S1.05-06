@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Engagement Environnemental d'Atos</title>
+    <title>Environnement - Atos</title>
+    <link rel="stylesheet" href="../Styles/PageEco.css">
+    <link rel="shortcut icon" href="../Icones/favicon-32x32.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap"/>
 
-    
-    <link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link href="../Styles/styles.css" rel="stylesheet" type="text/css">
-    
     <link rel="apple-touch-icon" sizes="57x57" href="../Icones/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="../Icones/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="../Icones/apple-icon-72x72.png">
@@ -31,58 +31,54 @@
 <body>
 
 <header>
-    <img src="../Icones/apple-icon-60x60.png" alt="Logo">
-    <nav class="navigation">
-        <a href="../index.html" class="btn btn-light text-success">Accueil</a>
-        <a href="PageService.html" class="btn btn-light text-success">Services</a>
-        <a href="PageEco.html" class="btn btn-light text-secondary">Économie</a>
-        <a href="" class="btn btn-light text-success">Gestion Environnementale</a>
-        <a href="PageAProp.html" class="btn btn-light text-success">À propos</a>
-    </nav>
+    <div class="logo">
+        <a href="../index.html"><img src="../Icones/apple-icon-60x60.png" alt="Logo Atos"></a>
+    </div>
+    <div class="slogan">
+        <h1>Atos - Gestion & Environnement</h1>
+        <p>Gestion durable, impact local</p>
+    </div>
+    <i class='bx bx-map-alt'></i>
 </header>
 
-<main class="site-content">
-<div class="container">
-    <h1 class="navigation bg-light bg-gradient">Engagement Environnemental d'Atos</h1>
 
-    <div class="section">
-        <h2 class="navigation bg-success bg-gradient">Neutralité Carbone et Objectifs de Réduction des Émissions</h2>
-        <h3>Vers une entreprise zéro carbone d'ici 2039</h3>
-        <p>
-            Atos s’est engagé à atteindre la neutralité carbone d’ici 2039, anticipant ainsi les délais fixés par l’Accord de Paris. L'entreprise met en œuvre des stratégies pour réduire ses émissions de gaz à effet de serre, notamment par l’optimisation de ses opérations et une diminution de son empreinte énergétique. Cela inclut l'utilisation d’énergies renouvelables pour ses infrastructures, ainsi que des programmes de compensation carbone, tels que des projets de reforestation et de transition énergétique.
-        </p>
+<nav>
+    <ul>
+        <li><a href="../index.html">Accueil</a></li>
+        <li><a href="../Pages/PageService.html">Services</a></li>
+        <li><a href="../Pages/PageEco.html" class="active">Économie</a></li>
+        <li><a href="../Pages/PageEnv.html">Environnement</a></li>
+        <li><a href="../Pages/PageAProp.html">À propos</a></li>
+    </ul>
+</nav>
+
+<section class="banner">
+    <div class="banner-content">
+        <a href="#services" class="service">Découvrez nos services</a>
     </div>
+</section>
 
-    <div class="section">
-        <h2 class="navigation bg-success bg-gradient">Centres de Données Écoresponsables et Énergies Renouvelables</h2>
-        <h3>Amélioration de l'efficacité énergétique et promotion du cloud bas carbone</h3>
-        <p>
-            Les centres de données, qui consomment une quantité significative d'énergie, font l'objet d'initiatives de durabilité chez Atos. L'entreprise vise à alimenter 100 % de ses centres de données avec des énergies renouvelables d’ici 2025. Des solutions innovantes sont mises en place pour maximiser l'efficacité énergétique, incluant l'utilisation de systèmes de refroidissement naturel et d'équipements à faible consommation d’énergie.
-        </p>
+<section class="presentation">
+    <input type="checkbox" id="expandToggle" class="toggle-checkbox">
+    <label for="expandToggle" class="toggle-label">
+      <span class="material-symbols-outlined"></span>
+    </label>
+  
+    <div class="expandable-section">
+      <p>Contenu de la section</p>
     </div>
+</section>
 
-    <div class="section">
-        <h2 class="navigation bg-success bg-gradient">Promotion de l’Économie Circulaire et Réduction des Déchets Électroniques</h2>
-        <h3>Recyclage responsable et gestion durable des équipements informatiques</h3>
-        <p>
-            Atos adopte une approche d’économie circulaire dans la gestion de ses équipements informatiques, garantissant que les appareils en fin de vie soient soit réutilisés soit recyclés de manière responsable. Cette stratégie vise à limiter la production de déchets électroniques, qui constitue une source majeure de pollution dans l’industrie technologique.
-        </p>
+<section class="googlemap">
+   
+</section>
+
+<footer>
+    <p>&copy; Cette page est attribuée à Johan HUNDERT</p>
+    <div class="social-links">
+        <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">LinkedIn</a>
     </div>
-
-    <div class="section">
-        <h2 class="navigation bg-success bg-gradient">Actions pour la Biodiversité et Projets de Compensation Carbone</h2>
-        <h3>Protection de la biodiversité à travers des initiatives environnementales durables</h3>
-        <p>
-            Atos s'engage à soutenir la biodiversité par le biais de projets de compensation carbone, incluant des initiatives concrètes telles que la reforestation dans des zones vulnérables. Ces projets ont pour but de compenser les émissions de CO2 tout en préservant et restaurant les écosystèmes naturels.
-        </p>
-    </div>
-</div>
-</main>
-
-<footer class="navigation bg-success bg-gradient">
-    <p>Cette page est attribuée à Johan HUNDERT</p>
 </footer>
 
-<script src="../Scripts/script_paccueil.js"></script>
 </body>
 </html>
