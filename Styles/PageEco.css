@@ -19,42 +19,54 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #4CAF50;
-    padding: 20px 40px;
+    background-color: #333;
     color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: relative;
+    height: 76px;
 }
 
-header .logo img {
-    height: 50px;
+header>a{
+    z-index: 10; /* Ajoute cette ligne pour que l'image soit au-dessus */
+    position: relative;
+}
+body > header > a > img{
+    height: 36px;
     transition: transform 0.3s ease;
+    margin-left: 10px;
 }
 
-header .logo img:hover {
+img:hover {
     transform: scale(1.1);
 }
 
 header .slogan {
-    flex: 1; 
+    position: absolute;
     text-align: center; 
+    height: 100%;
+    width: 100%;
+    z-index: 1;
 }
 
 header .slogan h1 {
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 700;
+    display: flex;
+    justify-content: center;
 }
 
 header .slogan p {
     font-style: italic;
     font-size: 18px;
-    margin-top: 5px;
     color: #fff8e1;
+    display: flex;
+    justify-content: center;
 }
+
 
 header i {
     background-color: #fff;
-    color: #4CAF50;
+    color: #333;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -70,7 +82,7 @@ header .translate-button:hover {
 
 nav {
     display: flex;
-    background-color: #333;
+    background-color: #4CAF50;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: sticky;
     top: 0px;
@@ -98,7 +110,7 @@ nav ul li a {
 }
 
 nav ul li a.active {
-    background-color: #4CAF50; 
+    background-color: rgba(0, 0, 0, 0.5); 
     color: white; 
     border: 2px solid #fff; 
     border-radius: 5px; 
@@ -230,7 +242,7 @@ footer {
     color: white;
     text-align: center;
     padding: 20px 0;
-    margin-top: 40px;
+    margin-top: 50%;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
 }
 
