@@ -110,6 +110,20 @@ nav ul li a:hover {
     transform: translateY(-3px);
 }
 
+.button-trans {
+    background-color: #fff;
+    color: #4CAF50;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-trans:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
 
 .banner {
     background-size: cover;
