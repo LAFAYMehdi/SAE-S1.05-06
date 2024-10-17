@@ -117,15 +117,17 @@ section {
     text-align: center;
 }
 
-section h2, section h3 {
+section h2, section  {
     color: green;
     margin-bottom: 20px;
 }
 
-section p {
+section p  {
+    color: black;
     max-width: 800px;
     margin: 0 auto 30px;
     line-height: 1.6;
+
 
 }
 
@@ -202,10 +204,31 @@ footer .social-links a:hover {
     text-shadow: 0 0 10px rgb(0, 0, 0.7);
 }
 
-.service-block1 {
+
+.block1{
+    margin-left: 45%;
+}
+
+.block2 {
     margin-right: 45%;
 }
 
-.service-block2 {
+.block3 {
+    margin-right: 45%;
+}
+
+.block5 {
     margin-left: 45%;
 }
+
+
+
+
+.imagegal {
+    display: flex; /* Utiliser flexbox */
+    margin-right: 20px; /* Espace entre l'image et le texte */
+}
+
+.imagegal img {
+    width: 250px; /* Ajuste la largeur de l'image selon tes besoins */
+    height: auto; /* Garde les proportions de l'image */
