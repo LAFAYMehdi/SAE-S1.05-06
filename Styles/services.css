@@ -225,10 +225,11 @@ footer .social-links a:hover {
 
 
 .imagegal {
-    display: flex; /* Utiliser flexbox */
-    margin-right: 20px; /* Espace entre l'image et le texte */
+    display: flex;
+    margin-right: 20px; 
 }
 
 .imagegal img {
-    width: 250px; /* Ajuste la largeur de l'image selon tes besoins */
-    height: auto; /* Garde les proportions de l'image */
+    width: 250px; 
+    height: auto; 
+}
