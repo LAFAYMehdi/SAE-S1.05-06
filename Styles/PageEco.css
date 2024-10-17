@@ -30,6 +30,12 @@ header>a{
     z-index: 10; /* Ajoute cette ligne pour que l'image soit au-dessus */
     position: relative;
 }
+
+body>header>img{
+    height: 50px;
+    position: absolute;
+    margin-left: 70px;
+}
 body > header > a > img{
     height: 36px;
     transition: transform 0.3s ease;
@@ -47,6 +53,20 @@ header .slogan {
     width: 100%;
     z-index: 1;
 }
+.boutton-trad{
+    background-color: #fff;
+    color: #4CAF50;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.boutton-trad:hover {
+    background-color: #4CAF50;
+    color: white;
+}
 
 header .slogan h1 {
     font-size: 22px;
@@ -56,7 +76,7 @@ header .slogan h1 {
 }
 
 header .slogan p {
-    font-style: italic;
+    font-weight: 300;
     font-size: 18px;
     color: #fff8e1;
     display: flex;
@@ -187,8 +207,17 @@ nav ul li a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-top: 40px;
     display: flex;
+    flex-direction: column;
+    border-radius: 14px;
 }
-
+.presentation h1{
+    font-size: 38px;
+    margin-top: 20px;
+    color: #000000 ;
+}
+body > section:nth-child(4) > div:nth-child(8) > img{
+    height: 400px;
+}
 .presentation h3 {
     font-size: 34px;
     margin-bottom: 20px;
@@ -200,6 +229,10 @@ nav ul li a:hover {
     margin-bottom: 40px;
     max-width: 800px;
     margin: 0 auto;
+    line-height: 1.6;
+    text-align: -webkit-center;
+    word-wrap: break-word;
+    
 }
 
 .imagegal {
@@ -242,7 +275,7 @@ footer {
     color: white;
     text-align: center;
     padding: 20px 0;
-    margin-top: 50%;
+    margin-top: auto;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -269,12 +302,20 @@ footer .social-links a:hover {
     background-color: #4CAF50;
     color: white;
     border-radius: 5px;
-    width: auto;
-    height: min-content;
+    width: 24px;
+    height: 24px;
     outline: none;
     -webkit-user-select: none !important; /* Empêche la sélection de texte */
 }
 
+body > section:nth-child(5) > a > span{
+    font-size: 50px;
+}
+.presentation h2{
+    font-size: 36px;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
 .expandable-section {
     width: 100%;
     height: 0; /* Hauteur initiale */
