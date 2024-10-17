@@ -196,6 +196,7 @@ nav ul li a:hover {
     font-size: 34px;
     margin-bottom: 20px;
     color: #4CAF50;
+    text-shadow: 0 0 10px rgb(175, 175, 195);
 }
 
 .presentation p {
@@ -238,6 +239,8 @@ nav ul li a:hover {
     font-size: 34px;
     margin-bottom: 20px;
     color: #333;
+    text-shadow: 0 0 10px rgb(175, 175, 195);
+
 }
 
 footer {
