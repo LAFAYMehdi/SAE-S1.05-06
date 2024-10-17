@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +7,6 @@
     font-family: "Roboto", sans-serif;
     transition: all 0.3s ease;
 }
-
 
 body {
     background-color: #f4f4f4;
@@ -111,15 +109,35 @@ nav ul li a:hover {
     background-color: #4CAF50;
     transform: translateY(-3px);
 }
-.presentation h1 {
-    font-size: 30px;
+
+
+
+.banner:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.presentation {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    display: flex;
+}
+
+.presentation h1{
+    font-weight: bold;
+    font-size: larger;
 }
 
 .presentation h2 {
-    font-size: 34px;
-    color: green;
-    margin-bottom: 20px;
-    margin-top: 30px
+    margin-bottom: 30px;
 }
 
 .presentation h3 {
@@ -128,55 +146,11 @@ nav ul li a:hover {
     color: #4CAF50;
 }
 
-section {
-    padding: 40px 20px;
-    text-align: center;
-}
-
-section h2, section h3 {
-    font-size: 34px;
-    color: green;
-    margin-bottom: 20px;
-    margin-top: 30px
-}
-
-section p {
+.presentation p {
+    font-size: 18px;
+    margin-bottom: 40px;
     max-width: 800px;
-    margin: 0 auto 30px;
-    line-height: 1.6;
-
-}
-
-.button-trans {
-    background-color: #fff;
-    color: #4CAF50;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.button-trans:hover {
-    background-color: #4CAF50;
-    color: white;
-}
-
-.imagegal {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 20px;
-}
-
-.imagegal img {
-    width: 200px;
-    height: auto;
-    border-radius: 10px;
-    transition: transform 0.3s ease-in-out;
-}
-
-.imagegal img:hover {
-    transform: scale(1.05);
+    margin: 0 auto;
 }
 
 footer {
@@ -184,7 +158,7 @@ footer {
     color: white;
     text-align: center;
     padding: 20px 0;
-    margin-top: 10%;
+    margin-top: 40px;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -199,4 +173,63 @@ footer .social-links a {
 footer .social-links a:hover {
     text-decoration: underline;
     color: #fff;
+}
+
+
+.toggle-checkbox {
+    display: none; /* Masquer la checkbox */
+}
+
+.toggle-label {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    width: auto;
+    height: min-content;
+    outline: none;
+    -webkit-user-select: none !important; /* Empêche la sélection de texte */
+}
+
+.expandable-section {
+    width: 100%;
+    height: 0; /* Hauteur initiale */
+    overflow: hidden;
+    transition: height 0.5s ease;
+}
+
+.toggle-checkbox:checked + .toggle-label + .expandable-section {
+    height: auto; /* Ajuste automatiquement la hauteur */
+}
+
+/* Changement d'icône */
+.toggle-label .material-symbols-outlined {
+    display: flex;
+    text-decoration: none; /* Empêche le soulignement */
+    width: auto;
+    height: auto;
+    outline: none;
+    -webkit-user-select: none !important; /* Empêche la sélection de texte */}
+
+/* Évite le soulignement lors du clic */
+.toggle-label:focus {
+    outline: none; /* Supprime le contour au focus */
+}
+
+/* Évite le soulignement sur les éléments cliquables */
+.toggle-label:active, 
+.toggle-label:focus {
+    text-decoration: none; /* Empêche le soulignement */
+}
+
+.toggle-checkbox:checked + .toggle-label .material-symbols-outlined {
+    content: 'remove'; /* Change l'icône de "add" à "remove" */
+}
+
+.toggle-label .material-symbols-outlined::before {
+    content: 'add'; /* Icône par défaut */
+}
+
+.toggle-checkbox:checked + .toggle-label .material-symbols-outlined::before {
+    content: 'remove'; /* Icône après activation */
 }
