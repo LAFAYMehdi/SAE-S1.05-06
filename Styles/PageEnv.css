@@ -112,14 +112,19 @@ nav ul li a:hover {
     transform: translateY(-3px);
 }
 
-section {
-    padding: 40px 20px;
-    text-align: center;
+.presentation h1{
+    font-weight: bold;
+    font-size: larger;
 }
 
-section h2, section h3 {
-    color: green;
+.presentation h2 {
+    margin-bottom: 30px;
+}
+
+.presentation h3 {
+    font-size: 34px;
     margin-bottom: 20px;
+    color: #4CAF50;
 }
 
 section p {
@@ -159,17 +164,6 @@ section p {
 
 .imagegal img:hover {
     transform: scale(1.05);
-}
-
-.mission {
-    background-color: #e8f4ff;
-    padding: 40px 20px;
-}
-
-.mission p {
-    max-width: 900px;
-    margin: 0 auto;
-    line-height: 1.6;
 }
 
 footer {
