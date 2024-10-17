@@ -145,6 +145,61 @@ section p {
 
 }
 
+.presentation1 {
+    display: flex;              /* Active Flexbox */
+    justify-content: space-between;  /* Espace entre les éléments */
+    align-items: center;        /* Aligne verticalement au centre */
+}
+
+.text {
+    flex: 1;                    /* Le texte prend tout l'espace disponible à gauche */
+}
+
+.image {
+    margin-left: 20px;          /* Espace entre le texte et l'image */
+}
+.presentation3 {
+    display: flex;              /* Active Flexbox */
+    justify-content: space-between;  /* Espace entre les éléments */
+    align-items: center;        /* Aligne verticalement au centre */
+}
+
+.text {
+    flex: 1;                    /* Le texte prend tout l'espace disponible à gauche */
+}
+
+.image {
+    margin-left: 20px;          /* Espace entre le texte et l'image */
+}
+
+.presentation2 {
+    display: flex;              /* Active Flexbox */
+    justify-content: space-between;  /* Espace entre les éléments */
+    align-items: center;        /* Aligne verticalement au centre */
+}
+
+.image {
+    margin-right: 20px;         /* Espace entre l'image et le texte */
+}
+
+.text {
+    flex: 1;                    /* Le texte prend tout l'espace disponible à droite */
+}
+
+.presentation4 {
+    display: flex;              /* Active Flexbox */
+    justify-content: space-between;  /* Espace entre les éléments */
+    align-items: center;        /* Aligne verticalement au centre */
+}
+
+.image {
+    margin-right: 20px;         /* Espace entre l'image et le texte */
+}
+
+.text {
+    flex: 1;                    /* Le texte prend tout l'espace disponible à droite */
+}
+
 .button-trans {
     background-color: #fff;
     color: #4CAF50;
