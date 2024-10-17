@@ -53,7 +53,7 @@ header .slogan {
     width: 100%;
     z-index: 1;
 }
-.boutton-trad{
+.button-trans {
     background-color: #fff;
     color: #4CAF50;
     border: none;
@@ -61,9 +61,10 @@ header .slogan {
     border-radius: 5px;
     cursor: pointer;
     margin-right: 20px;
+    z-index: 10;
 }
 
-.boutton-trad:hover {
+.button-trans:hover {
     background-color: #4CAF50;
     color: white;
 }
