@@ -306,7 +306,7 @@ footer .social-links a:hover {
     width: 24px;
     height: 24px;
     outline: none;
-    user-select: none !important; /* Empêche la sélection de texte */
+    -webkit-user-select: none !important; /* Empêche la sélection de texte */
 }
 
 body > section:nth-child(5) > a > span{
@@ -335,7 +335,7 @@ body > section:nth-child(5) > a > span{
     width: auto;
     height: auto;
     outline: none;
-    -user-select: none !important; /* Empêche la sélection de texte */}
+    -webkit-user-select: none !important; /* Empêche la sélection de texte */}
 
 /* Évite le soulignement lors du clic */
 .toggle-label:focus {
