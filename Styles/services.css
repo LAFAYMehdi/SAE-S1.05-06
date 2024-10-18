@@ -28,6 +28,22 @@ header {
     position: relative;
 }
 
+.button-trans {
+    background-color: #fff;
+    color: #4CAF50;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+    z-index: 10;
+}
+
+.button-trans:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
 header .logo img {
     height: 50px;
     transition: transform 0.3s ease;
