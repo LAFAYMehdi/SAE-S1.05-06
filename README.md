@@ -32,7 +32,7 @@ Ayman MAAROUFI et Mehdi Lafay
 
 **Auteur : Ayman MAAROUFI**  
 
-Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https://lafaymehdi.github.io/SAE-S1.05-06/#accueil)
 
 
 ![capture d'écran de la conformité de la page ...](doc/capture_1_W3C.png)
