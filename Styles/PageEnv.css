@@ -153,58 +153,56 @@ section p {
 }
 
 .presentation1 {
-    display: flex;              /* Active Flexbox */
-    justify-content: space-between;  /* Espace entre les éléments */
-    align-items: center;        /* Aligne verticalement au centre */
+    display: flex;             
+    justify-content: space-between;  
+    align-items: center;       
 }
 
 .text {
-    flex: 1;                    /* Le texte prend tout l'espace disponible à gauche */
+    flex: 1;                  
 }
-
 .image {
-    margin-left: 20px;          /* Espace entre le texte et l'image */
+    margin-left: 20px;    
 }
 .presentation3 {
-    display: flex;              /* Active Flexbox */
-    justify-content: space-between;  /* Espace entre les éléments */
-    align-items: center;        /* Aligne verticalement au centre */
+    display: flex;             
+    justify-content: space-between;  
+    align-items: center;       
 }
 
 .text {
-    flex: 1;                    /* Le texte prend tout l'espace disponible à gauche */
+    flex: 1;                   
 }
 
 .image {
-    margin-left: 20px;          /* Espace entre le texte et l'image */
+    margin-left: 20px;      
 }
 
 .presentation2 {
-    display: flex;              /* Active Flexbox */
-    justify-content: space-between;  /* Espace entre les éléments */
-    align-items: center;        /* Aligne verticalement au centre */
+    display: flex;           
+    justify-content: space-between; 
+    align-items: center;       
 }
 
 .image {
-    margin-right: 20px;         /* Espace entre l'image et le texte */
+    margin-right: 20px;       
 }
-
 .text {
-    flex: 1;                    /* Le texte prend tout l'espace disponible à droite */
+    flex: 1;                  
 }
 
 .presentation4 {
-    display: flex;              /* Active Flexbox */
-    justify-content: space-between;  /* Espace entre les éléments */
-    align-items: center;        /* Aligne verticalement au centre */
+    display: flex;          
+    justify-content: space-between;  
+    align-items: center;       
 }
 
 .image {
-    margin-right: 20px;         /* Espace entre l'image et le texte */
+    margin-right: 20px;        
 }
 
 .text {
-    flex: 1;                    /* Le texte prend tout l'espace disponible à droite */
+    flex: 1;                   
 }
 
 .button-trans {

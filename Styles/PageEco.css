@@ -217,7 +217,7 @@ footer .social-links a:hover {
 
 
 .toggle-checkbox {
-    display: none; /* Masquer la checkbox */
+    display: none;
 }
 
 .toggle-label {
@@ -228,7 +228,7 @@ footer .social-links a:hover {
     width: 24px;
     height: 24px;
     outline: none;
-    -webkit-user-select: none !important; /* Empêche la sélection de texte */
+    -webkit-user-select: none !important;
 }
 
 body > section:nth-child(5) > a > span{
@@ -241,43 +241,42 @@ body > section:nth-child(5) > a > span{
 }
 .expandable-section {
     width: 100%;
-    height: 0; /* Hauteur initiale */
+    height: 0;
     overflow: hidden;
     transition: height 0.5s ease;
 }
 
 .toggle-checkbox:checked + .toggle-label + .expandable-section {
-    height: auto; /* Ajuste automatiquement la hauteur */
+    height: auto;
 }
 
 /* Changement d'icône */
 .toggle-label .material-symbols-outlined {
     display: flex;
-    text-decoration: none; /* Empêche le soulignement */
+    text-decoration: none;
     width: auto;
     height: auto;
     outline: none;
-    -webkit-user-select: none !important; /* Empêche la sélection de texte */}
-
-/* Évite le soulignement lors du clic */
-.toggle-label:focus {
-    outline: none; /* Supprime le contour au focus */
+    -webkit-user-select: none !important;
 }
 
-/* Évite le soulignement sur les éléments cliquables */
+.toggle-label:focus {
+    outline: none;
+}
+
 .toggle-label:active, 
 .toggle-label:focus {
-    text-decoration: none; /* Empêche le soulignement */
+    text-decoration: none;
 }
 
 .toggle-checkbox:checked + .toggle-label .material-symbols-outlined {
-    content: 'remove'; /* Change l'icône de "add" à "remove" */
+    content: 'remove';
 }
 
 .toggle-label .material-symbols-outlined::before {
-    content: 'add'; /* Icône par défaut */
+    content: 'add';
 }
 
 .toggle-checkbox:checked + .toggle-label .material-symbols-outlined::before {
-    content: 'remove'; /* Icône après activation */
+    content: 'remove'; 
 }

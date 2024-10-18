@@ -32,62 +32,64 @@ Ayman MAAROUFI et Mehdi Lafay
 
 **Auteur : Ayman MAAROUFI**  
 
-Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https://lafaymehdi.github.io/SAE-S1.05-06/#accueil)
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https://lafaymehdi.github.io/SAE-S1.05-06/index.html)
 
 
-![capture d'écran de la conformité de la page ...](doc/capture_1_W3C.png)
+![capture d'écran de la conformité de la page ...](Doc/capture_1_W3C.png)
 
 
-![capture d'écran sur le site https://www.ecoindex.fr/ pour tester l'eco-conception](doc/capture_1_ecoconcept.png)
+![capture d'écran sur le site https://www.ecoindex.fr/ pour tester l'eco-conception](Doc/capture_1_ecoconcept.png)
 
 
 ### Page Services
 
 **Auteur : Mohamed-Younes IMLOUL**  
 
-Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https://lafaymehdi.github.io/SAE-S1.05-06/Pages/PageService.html)
 
 
-![capture d'écran de la conformité de la page ...](doc/capture_1_W3C.png)
+![capture d'écran de la conformité de la page ...](Doc/capture_2_W3C.png)
 
 
-![capture d'écran sur le site https://www.ecoindex.fr/ pour tester l'eco-conception](doc/capture_1_ecoconcept.png)
+![capture d'écran sur le site https://www.ecoindex.fr/ pour tester l'eco-conception](Doc/capture_2_ecoconcept.png)
 
 ### Page Économie
 
 **Auteur : Mehdi LAFAY** 
 
-Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https://lafaymehdi.github.io/SAE-S1.05-06/Pages/PageEco.html)
 
 
-![capture d'écran de la conformité de la page ...](doc/capture_1_W3C.png)
+![capture d'écran de la conformité de la page ...](Doc/capture_3_W3C.png)
 
 
-![capture d'écran sur le site https://www.ecoindex.fr/ pour tester l'eco-conception](doc/capture_1_ecoconcept.png)
+![capture d'écran sur le site https://www.ecoindex.fr/ pour tester l'eco-conception](Doc/capture_3_ecoconcept.png)
 
 ### Page Environnement
 
 **Auteur : Johan HUNDERT** 
 
-Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https://lafaymehdi.github.io/SAE-S1.05-06/Pages/PageEnv.html)
 
 
-![capture d'écran de la conformité de la page ...](doc/capture_1_W3C.png)
+![capture d'écran de la conformité de la page ...](Doc/capture_4_W3C.png)
 
 
-![capture d'écran sur le site https://www.ecoindex.fr/ pour tester l'eco-conception](doc/capture_1_ecoconcept.png)
+![capture d'écran sur le site https://www.ecoindex.fr/ pour tester l'eco-conception](Doc/capture_4_ecoconcept.png)
 
 ### Page À propos
 
 **Auteur : Ayman MAAROUFI**  
 
-Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
+Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https://lafaymehdi.github.io/SAE-S1.05-06/Pages/AProp.html)
 
 
-![capture d'écran de la conformité de la page ...](doc/capture_1_W3C.png)
+![capture d'écran de la conformité de la page ...](Doc/capture_5_W3C.png)
 
 
-![capture d'écran sur le site https://www.ecoindex.fr/ pour tester l'eco-conception](doc/capture_1_ecoconcept.png)
+![capture d'écran sur le site https://www.ecoindex.fr/ pour tester l'eco-conception](Doc/capture_5_ecoconcept.png)
+
+### Les Pages en anglais sont de la même strucuration que les françaises.
 
 ## Répartition du travail
 
@@ -127,5 +129,4 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sh
 
 ## Contributeurs
 
-![capture d'écran de sur la contribution des membres du projet](doc/livrable2_contributors.png)
-![écran qui vérifie si le document est valide sur W3C](doc/capture_1_W3C.png)
+![capture d'écran de sur la contribution des membres du projet](Doc/livrable2_contributors.png)
