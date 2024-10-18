@@ -114,17 +114,15 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sh
 
 - Ayman MAAROUFI
   - Page d’accueil
-- Ayman MAAROUFI
-- Mehdi LAFAY
   - "Template" de page (Navbar/Footer)
+  - Page À Propos
 - IMLOUL Mohamed-Younes
   - Page Services
 - Mehdi LAFAY
   - Page Économie
+  - NavBar/Footer
 - Johan HUNDERT
   - Page Environnement
-- Ayman MAAROUFI
-  - Page À propos
 
 
 ## Contributeurs
