@@ -96,6 +96,7 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sh
 ### Planification - Diagramme de GANTT
 
 - Yanis MALOUCI (A démissionné)
+- Ayman Maaroufi
 
 ### Recherches d'informations
 
@@ -109,6 +110,8 @@ Vérification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sh
 
 - Johan HUNDERT
 - Mehdi LAFAY
+- Mohamed-Younes IMLOUL
+- Ayman Maaroufi
 
 ### Développement site
 
